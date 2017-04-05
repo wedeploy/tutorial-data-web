@@ -3,6 +3,7 @@ var form = document.querySelector('form');
 form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
+// Insert save data method bellow
 	WeDeploy
 		.data(`data.${DOMAIN}`)
 		.create('tasks', {name: form.item.value })
@@ -14,4 +15,5 @@ form.addEventListener('submit', function(e) {
 			.catch(function(error) {
 				console.error(error);
 			});
+// Insert save data method above
 });

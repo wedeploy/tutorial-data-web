@@ -1,6 +1,6 @@
 var list = document.querySelector('.list');
 
-
+// Insert fetch data method bellow
 WeDeploy
 	.data(`ata.${DOMAIN}`)
 	.orderBy('id', 'desc')
@@ -12,6 +12,7 @@ WeDeploy
 		.catch(function(error) {
 			console.error(error);
 		});
+// Insert fetch data method above
 
 WeDeploy
 	.data('http://data.tutorial-data-js.wedeploy.io')
