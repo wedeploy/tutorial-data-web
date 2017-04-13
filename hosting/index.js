@@ -5,7 +5,7 @@ form.addEventListener('submit', function(e) {
 
 // Insert save data method bellow
 	WeDeploy
-		.data(`data.${DOMAIN}`)
+		.data('data.tutorial-data-web.wedeploy.io')
 		.create('tasks', {name: form.item.value })
 			.then(function(response) {
 				form.reset();
