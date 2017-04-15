@@ -1,6 +1,6 @@
 var list = document.querySelector('.list');
 
-// Insert fetch data method bellow
+// Insert fetch data method below
 WeDeploy
 	.data('data.tutorial-data-web.wedeploy.io')
 	.orderBy('id', 'desc')
