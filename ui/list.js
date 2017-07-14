@@ -2,7 +2,7 @@ var list = document.querySelector('.list');
 
 // Insert fetch data method below
 WeDeploy
-	.data('data.tutorial-data-web.wedeploy.io')
+	.data('db-tutorialdataweb.wedeploy.sh')
 	.orderBy('id', 'desc')
 	.limit(5)
 	.get('tasks')
