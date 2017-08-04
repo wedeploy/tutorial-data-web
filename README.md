@@ -1,5 +1,5 @@
-# WeDeploy Data On The Web Tutorial
+# WeDeploy Data on the Web Tutorial
 
-This template will help you through the process of deploying a WeDeploy Data container.
+This template will help you through the process of deploying an Data project on the Web.
 
-> [Visit the tutorial to learn how to start saving and fetching data.](https://wedeploy.com/tutorials/data-web/)
+> [Visit the tutorial to learn how to start using the WeDeploy Data service on the Web.](https://wedeploy.com/tutorials/data-web/)
